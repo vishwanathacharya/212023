@@ -1,0 +1,20 @@
+.. put in ./dump directory
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTHER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTHER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 8/;
+
+CREATE TABLE `Person` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `Person` (`id`, `name`) VALUES
+(1, 'Willian'),
+(2, 'Marc'),
+(3, 'John');
+
+
